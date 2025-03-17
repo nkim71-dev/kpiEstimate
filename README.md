@@ -55,12 +55,12 @@ Run to train leakage classifier models
 
     python src/trainModel.py 
 
-- A folder with trained models is generated under "models" folder 
+- Weights of the trained model are saved in a h5 fil under the "models" folder.
 - The name of the trained models are managed by the time of their creations.
 
 ---
 ## Inference Model
-Run to inference the trained leakage classifier models
+Run to inference the trained models
 
 
     python src/inferenceModel.py
