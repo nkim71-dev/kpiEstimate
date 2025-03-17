@@ -34,7 +34,7 @@ Install packages
 ## Processing Data
 Preprocess data in the "data" folder
 
-    python src/trainModel.py
+    python src/preprocessData.py
 
 [NOTE] Data parsing will be shortly added.
 
