@@ -51,22 +51,24 @@ Preprocess data in the "data" folder
 
 ---
 ## Train Model
-Run to train leakage classifier models 
+Run to train estimation models 
 
-    python src/trainModel.py 
+    python src/trainModel.py --model-name transformer
 
 - Weights of the trained model are saved in a h5 fil under the "models" folder.
 - The name of the trained models are managed by the time of their creations.
+- The model name argment can be either dense (default) or transformer.
 
 ---
 ## Inference Model
 Run to inference the trained models
 
 
-    python src/inferenceModel.py
+    python src/inferenceModel.py --model-name transformer
 
 - RMSE and MAE are calculated and presented.
 - True and predicted KPI are visualized and saved under "figures" folder.
+- The model name argment can be either dense (default) or transformer.
 
 
 
